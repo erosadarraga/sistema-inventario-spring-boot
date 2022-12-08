@@ -22,7 +22,7 @@ public class CategoriaRepositoryTest {
 
 	@Test
 	public void testCrearCategoria() {
-		Categoria categoriaGuardada = repositorio.save(new Categoria("comida"));
+		Categoria categoriaGuardada = repositorio.save(new Categoria("juegos"));
 		assertThat(categoriaGuardada.getId()).isGreaterThan(0);
 	}
 }
